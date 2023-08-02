@@ -17,12 +17,12 @@ const App = () => {
   }
 
   useEffect(() => {
-    // Your useEffect logic goes here (if you have any)
+    searchMovies("Batman");
   }, []);
 
   return (
     <div className="app">
-      <h1>MovieApp</h1>
+      <h1>MovieLand</h1>
       <div className="search">
         <input
           value={searchTerm}
@@ -49,6 +49,6 @@ const App = () => {
       )}
     </div>
   );
-}
+ };
 
 export default App;
